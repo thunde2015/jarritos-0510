@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Gilgongo";
+    src: url(../fonts/gilgongo.regular.ttf);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, 
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 90px;
+}
+
+h1 {
+    font-family: 'Gilgongo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul {
+    padding: 0;
+    margin-left: 30px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #fff;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header, 
+footer {
+    background: #085237;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+}
