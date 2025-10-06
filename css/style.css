@@ -23,6 +23,7 @@ header {
 
 .logo {
     max-width: 90px;
+    margin-left: 20px;
 }
 
 h1 {
@@ -41,7 +42,7 @@ nav li {
 nav a {
     font-size: 1.4rem;
     font-weight: 700;
-    color: #fff;
+    color: #ffffff;
     padding: 20px;
 }
 
@@ -49,13 +50,73 @@ a {
     text-decoration: none;
 }
 
+.cta {
+    background: #ff5d05;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    padding: 10px 80px;
+    border-radius: 5px;
+}
+
+.cta-small {
+    padding: 8px 30px;
+    font-size: 0.8em;
+}
+
+.cta-sale {
+    background: #0dc20d;
+    color: #ffffff;
+}
+
 
 header, 
 footer {
     background: #085237;
-    color: #fff;
+    color: #ffffff;
 }
 
 footer {
     text-align: center;
 }
+
+
+/* Home page */
+.welcome {
+    position: relative;
+    top: -20px;
+    background: url('../images/Jarritos\ home.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 70vh;
+    color: #085237;
+}
+
+.review {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #d4c1a5;
+    padding: 15px;
+    color: #ffffff;
+}
+
+.reviews p {
+    margin-right: 50px;
+    width: 300px;
+}
+
+.review-images {
+    width: 200px;
+    height: auto;
+    border-radius: 10%;
+    border: 2px solid #ffffff;
+}
+
+
+/* Drinks page */
+
+
+
+
+
+/* Contact page */
