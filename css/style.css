@@ -19,10 +19,11 @@ body {
 header {
     display: flex;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .logo {
-    max-width: 90px;
+    max-width: 80px;
     margin-left: 20px;
 }
 
